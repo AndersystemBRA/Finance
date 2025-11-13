@@ -15,14 +15,14 @@ import tempfile
 
 
 # Definindo nomes e variáveis
-bucket_name = 'br-apps-property-indicator-prd-cs-001'
-folder_name = 'DADOS'
-project_id = 'br-apps-property-indicator-prd'
-dataset_name = 'Imports'
+bucket_name = 'br-apps-finance-prd-sap-log'
+folder_name = 'DADOS_1'
+project_id = 'br-apps-finance-prd'
+dataset_name = 'datalake'
 log_dataset_name = 'LOG'
-target_folder = 'BI_DFG_FILES'
-success_folder = 'sucesso'
-failure_folder = 'falha'
+target_folder = 'BI_SI_FILES'
+success_folder = 'Sucesso'
+failure_folder = 'Falha'
 
 
 # Variável para armazenar logs de execução
